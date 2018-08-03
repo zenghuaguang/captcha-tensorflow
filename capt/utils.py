@@ -85,7 +85,7 @@ def vec2text(vec):
 
         char_code = pos2char(char_idx)
 
-        text.append(chr(char_code))
+        text.append(str(char_code))
     return "".join(text)
 
 
